@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the repository and exact commit."
+title: "OpenAtom-TDSE"
+type: software
+authors:
+  - alias: "KrAzad0"
+repository-code: "https://github.com/KrAzad0/openatom-tdse"
+license: MIT
