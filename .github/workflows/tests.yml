@@ -17,3 +17,6 @@ jobs:
       - run: python -m pytest -q
       - run: python examples/hydrogen_spectrum.py
       - run: python examples/softcore_pulse.py
+      - run: python examples/torus_two_state.py
+      - run: python examples/torus_six_state.py --output /tmp/torus-study
+      - run: python examples/plot_torus_study.py /tmp/torus-study/pulse_full_observables.csv --output /tmp/torus-plots
